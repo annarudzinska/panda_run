@@ -1,0 +1,17 @@
+.dino {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background-image: url(panda.png);
+    bottom: 0px; /*position absolute and bottom 0px allow keeping the dino in the bottom left corner using the whole website as a grid*/
+    
+}
+
+.obstacle {
+    position: absolute;
+    width: 43px;
+    height: 60px;
+    background: url(tree.png);
+    bottom: 0px;
+    
+} 
