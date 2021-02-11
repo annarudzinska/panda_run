@@ -2,8 +2,10 @@
     position: absolute;
     width: 120px;
     height: 60px;
-    background-image: url(panda.png);
+    background-image: url(panda-big.png);
+    background-size: 120px 60px;
     bottom: 0px; /*position absolute and bottom 0px allow keeping the dino in the bottom left corner using the whole website as a grid*/
+
     
 }
 
@@ -11,7 +13,18 @@
     position: absolute;
     width: 43px;
     height: 60px;
-    background: url(tree.png);
+    background: url(palm-tree.png);
+    background-size: 43px 60px;
     bottom: 0px;
-    
+
 } 
+
+#beach {
+    position: absolute;
+    bottom: 0px;
+    background-image: url(beach.png);
+    background-size: 1000px 500px;
+    background-repeat: repeat-x;
+    width: 1000px;
+    height: 500px;
+}
